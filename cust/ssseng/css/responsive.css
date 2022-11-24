@@ -1,0 +1,205 @@
+/* Everything ----------- */
+
+body {
+    transition:all .5s ease-in-out; 
+    -o-transition:all .5s ease-in-out; 
+    -moz-transition:all .5s ease-in-out; 
+    -webkit-transition:all .5s ease-in-out;
+}
+
+
+@media only screen 
+and (max-width : 728px) {
+
+#leftColumn .inside.addticket {padding:38px 5%;}
+.tablethide{display:none!important;}
+#leftColumn {width:96%;}
+#leftColumn .modulebox {
+border: 3px solid #e1e1e1;
+width: 46%;
+float: left;
+margin: 1%;
+height:125px;
+}
+#leftColumn .inside {height:79px;}
+#leftColumn .modulebox h2.heading {display:none;}
+#db.main-content {width:95%; padding:0px 2.5%;}
+#footerLinks #footerBar ul li.ftrlinks{width:20%;}
+
+.top-nav { position: relative; z-index: 100; background: #fcfcff; height: 40px; margin: 7px; border: 1px solid #94B8D5; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; }
+	.top-nav span.top-nav-shadow { display: none; }
+	.top-nav ul { display: none;  font-size: 14px; position: absolute; width: 100%; top: 37px; left: -1px; line-height: 24px; padding: 0 0px 0px 0px; background: #fcfcff; border: 1px solid #94B8D5; border-top: 0; 
+		border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px; -o-border-radius: 0 0 5px 5px; }
+	.top-nav ul li.active a { display: block; float: none; background: none; }
+	.top-nav ul li.active span { display: block; float: none; background: none; }
+	.top-nav ul li, .top-nav ul li:hover { display: block; float: none;  padding: 10px 20px;  background: url(../images_sss/tablet-section-shadow.png) no-repeat center top; }
+	.top-nav ul li a { display: block; float: none; padding: 0 0 0 0; background:none; color:#3A74A3; text-align:left;}
+	.top-nav ul li span { float: none; }
+	.top-nav ul li a:hover { display: block; float: none; background: none; }
+	.top-nav ul li.last a { float: none; display: block;  padding-right: 0; } 
+	.top-nav ul li.last {  padding-bottom: 10px }
+	.top-nav a.nav-btn { text-align: left; background:none; width: 100%;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  height: 40px; display: block;  color:#3A74A3; font-size: 14px; line-height: 40px;  text-shadow: 0 1px 0 rgba(255, 255, 255,0.8); font-family: 'Ubuntu',sans-serif; font-weight: 700; padding:0px 0px 0px 20px;  }  
+	.top-nav a.nav-btn:hover { text-decoration: none; }
+	.top-nav a.nav-btn span { background: url(/cust/ssseng/img/nav-arr@2x.png) no-repeat center 16px; width: 40px; height: 40px; display: block; position: absolute; top: 0px; right: 0; z-index: 2000;}
+	.top-nav a.nav-btn span.active { background: url(/cust/ssseng/img/nav-arr-active.png) no-repeat center 16px; }
+	.top-nav ul li.first  { display: none; }
+#max, #megaSearch {width:100%; margin:0px;}
+#megaSearch form input[type="image"]{
+margin-left: 5px;
+height: 30px;
+}
+#megaSearch input[type="text"]{width:70%}
+
+.full-box .current-data { width:64%; float:left; margin:10px;}
+.full-box .created { width:25%; float:right; margin:10px; font-size: 13px;}
+
+.dbhead.login form .button-signin {float:none; margin:10px 0;}
+
+}
+
+@media only screen 
+and (max-width : 480px) {
+
+.phonehide {display:none!important;}
+.dbhead {width: 99.4%;}
+#logo {width:auto!important; text-align:center; margin:10px; float:none; max-width: none;}
+#leftColumn { margin:0px 0px 10px 0px; width: 100%;}
+.codebox {width:100%; margin:10px auto 20px auto;}
+
+#megaSearch input[type="text"] {
+    width: 65%;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+#max, #megaSearch {width:100%; margin:0px;}
+.dbhead {width: 99.4%;}
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+
+
+
+
+
+/* galaxy tab 3 lite SM – T110 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px) {
+	
+#max {margin: 2% auto;}
+
+}
+
+/* galaxy tab 3 lite SM – T110 (landscape) ----------- */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* galaxy tab 3 lite SM – T110 (portrait) ----------- */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.top-nav a {padding: 6px 15px;}
+
+}
+
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+
+/* iPad 3 (landscape) **********/
+@media
+only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPad 3 (portrait) **********/
+@media
+only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media
+only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}

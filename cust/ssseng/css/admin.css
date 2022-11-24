@@ -1,0 +1,33 @@
+
+td {margin: 0px; padding: 2px; text-align: left;}
+th {color: #ffffff; background-color:#808080; margin: 0px; padding: 2px; font-weight:bold;}
+
+a.thlink {color: #f9c632; font-weight:bold; text-decoration: none;}
+a.thlink:hover {color: #ffffff; text-decoration: none;}
+
+.cl_white { background-color: #fff;}
+.cl_black { background-color: #000;}
+.cl_red { background-color: #da1a31;}
+.cl_grey { background-color: #646464;}
+.cl_grey_lt { background-color: #bdbdbd;}
+
+.txt_white {color:#ffffff !important;}
+.txt_black {color:#000000 !important;}
+.txt_red {color:#da1a31 !important;}
+.txt_grey {color:#646464 !important;}
+
+.txt_al_l {text-align:left;}
+.txt_al_c {text-align:center;}
+.txt_al_r {text-align:right;}
+
+.adRow_m { background-color: #e2e1e1; font-weight:bold; color:#333333;}
+.adRow_1 { background-color: #dfedfb;}
+.adRow_2 { background-color: #f8faf7;}
+.adRow_nw { background-color: #98e768;}
+.adRow_up { background-color: #d9f2c9;}
+.adRow_rm { background-color: #eccad4;}
+
+.admMessage { color: #009900; font-weight:bold; text-align: center; background-color:#ffffff;}
+
+.frmInput { color: #000000; font-size:11px; background-color:#ffffff; border-style:0; border:1px solid #333; z-index:1; height:17px; }
+.frmSubmit { color:#ffffff; font-size:10px; font-weight:bold; background-color:#808080; border:1px solid #333; cursor:hand; }

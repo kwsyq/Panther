@@ -1,0 +1,1 @@
+ALTER TABLE `contract` ADD `hourlyRate` INT(11) NULL AFTER `addressOverride`;

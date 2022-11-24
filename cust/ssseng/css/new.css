@@ -1,0 +1,105 @@
+
+.widetextarea
+{
+  width:100%;
+}
+.textwrapper
+{
+
+  padding:3px;
+}
+
+
+
+.siteform {
+	width: 100%;
+	padding: 4px;
+}
+
+.siteform td th {
+	text-align: left;
+	vertical-align: top;
+	padding: 4px;
+}
+
+.siteform input {
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 34px;
+	width: 90%;
+	line-height: 34px;
+	margin-top: 0px;
+	padding: 0 2%;
+}
+.siteform textarea {
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 102px;
+	width: 90%;
+	line-height: 34px;
+	margin-top: 0px;
+	padding: 0 2%;
+}
+
+/* Start of Column CSS */
+/* >>>00032 JM 2019-12-10: should really have been been driven by classes, not IDs, may deserve a revisit. */
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#eeeeee; /* column 2 background colour */
+
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+	background:#eeeeee; /* column 1 background colour */
+}
+#col1 { /* This was created for job.php, and any other use is opportunistic. */
+	float:left;
+	width:56%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+#col2 { /* This was created for job.php, and any other use is opportunistic */
+	float:left;
+	width:36%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+
+}
+
+div#col2 iframe { /* div#col2 case was created for job.php, and any other use is opportunistic */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 100%;
+	
+	border-style: none;
+}
+
+/* JM 2019-12-10: Variant of the above for company.php because space needs there are different. */
+div.col1.company {
+	float:left;
+	width:56%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+div.col2.company {
+	float:left;
+	width:44%;
+	position:relative;
+	left:50%;
+	overflow:hidden;
+
+}

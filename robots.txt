@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /c/
+Disallow: /ajax/
+Disallow: /crons/
+Disallow: /cust/
+Disallow: /etc/
+Disallow: /fb/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /maint/
+Disallow: /migstuff/
+Disallow: /other/
+Disallow: /iframe/
+Disallow: /api.php

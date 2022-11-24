@@ -1,0 +1,26 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` FUNCTION `getDetailFullName`(`idDetail` INT) RETURNS varchar(150) CHARSET latin1
+BEGIN
+  
+  DECLARE name VARCHAR(6000);
+  DECLARE tempName VARCHAR(6000);
+  DECLARE tempId INT;
+  DECLARE done BOOLEAN DEFAULT FALSE;
+  DECLARE c1 cursor for SELECT t2.detailId, t2.name FROM (SELECT @r as _id, (SELECT @r := parentId FROM detail where detailId =_id ) as parentId, @l := @l + 1 as lvl FROM (SELECT @r := idDetail, @l :=
+  0) vars, detail m WHERE @r <> 0) t1 JOIN detail t2 ON t1._id = t2.detailId ORDER BY t1.lvl desc;
+  DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+  SET name = '';
+    OPEN c1;
+         read_loop: loop
+            fetch c1 into tempId, tempName;
+            IF done THEN
+                LEAVE read_loop;
+            END IF;
+           SET name = CONCAT(name, ".", tempName);
+        END loop;
+        close c1;
+    RETURN name;
+    
+    
+END$$
+DELIMITER ;

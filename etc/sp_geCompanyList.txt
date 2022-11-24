@@ -1,0 +1,28 @@
+
+DELIMITER //
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_geCompanyList`()
+    NO SQL
+BEGIN
+
+SELECT
+	co.companyId, co.companyName, co.companyURL,
+    l.locationId, l.city, l.address1, ph.phoneNumber,
+    em.emailAddress, cj.nrJobs, cwoi.nrInvoices
+ FROM
+ company co
+ LEFT JOIN companyLocation as cl
+    ON co.companyId = cl.companyId
+ LEFT JOIN location as l
+	ON cl.companyLocationId = l.locationId
+ LEFT JOIN companyPhone as ph
+ 	ON ph.companyId = co.companyId
+ LEFT JOIN companyEmail as em
+ 	ON em.companyId = co.companyId
+ LEFT JOIN companyjobsactive as cj
+ 	ON co.companyId = cj.companyId
+ LEFT JOIN companywoinovoices as cwoi
+ 	ON co.companyId = cwoi.companyId
+ GROUP BY co.companyId
+ ORDER BY co.companyId;
+
+END//

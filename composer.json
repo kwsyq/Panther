@@ -1,0 +1,6 @@
+{
+    "require": {
+        "adhocore/jwt": "0.1.2",
+      "ext-json": "*"
+    }
+}

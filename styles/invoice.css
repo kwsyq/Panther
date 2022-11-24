@@ -1,0 +1,370 @@
+.thistable, th, td {
+   border: 0px;
+}
+.forminput {
+    width: 100%;
+}
+.formspan {
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
+#copyLink {
+    color: #000;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+#copyLink:hover {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+#firstLinkToCopy {
+    font-size: 18px;
+    font-weight: 700;
+}
+    @media screen and (max-width: 680px) {
+        .treeview-flex {
+            flex: auto !important;
+            width: 100%;
+        }
+    }
+    .workorderClick
+    {
+        text-transform:capitalize;
+        padding:25px;
+        font-size:15px;
+        line-height:2.5;
+        font-weight: 600;
+    }
+
+    #treeview .k-sprite {
+        /*background-image: url("https://demos.telerik.com/kendo-ui/content/web/treeview/coloricons-sprite.png"); */
+    }
+
+    .folder { background-position: 0 -16px; }
+    .html { background-position: 0 -48px; }
+    body {
+        background-image: url("");
+    }
+    .fancybox-wrap .fancybox-desktop .fancybox-type-iframe .fancybox-opened {
+        left: 100px!important;
+    }
+
+    /* Changes on popup Edit Mode */
+    .k-button-primary, .k-button.k-primary {
+        color: #fff;
+        background-color: #3fb54b;
+        font-size: 12px;
+    }
+    .k-window-titlebar {
+        padding: 8px 6px;
+    }
+    /* End changes on popup Edit Mode */
+    .telerik-icon {
+        margin-left: 5px;
+    }
+    #treeview-kendo > ul > li > div > span > span.k-icon.k-i-close.telerik-icon {
+        display:none!important;
+    }
+    /*#treeview-telerik-wo > ul > li > ul > li > div >  span > span.k-icon.k-i-close.telerik-icon {
+        display:none!important;
+
+    }*/
+
+
+    .treeInlineEdit > input
+    {
+        font-size: 1.5em;
+        min-width: 10em;
+        min-height: 2em;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        border: 0px solid #ffffff;
+    }
+
+
+    #myCustomDescription {
+        height:100%;
+        line-height: 1.3;
+    }
+    #gantt .k-grid-header
+    {
+    padding: 0 !important;
+    }
+
+    #gantt .k-grid-content
+    {
+    overflow-y: visible;
+    }
+    .k-gantt-header  {
+        display:none !important;
+    }
+    .k-gantt-footer {
+        display:none!important;
+    }
+    .k-gantt-timeline{
+        display:none !important;
+    }
+    .k-gantt-treelist {
+        width: 100%!important;
+
+    }
+
+
+    .k-grid tbody button.k-button {
+        min-width: 20px;
+        border: 0px solid #fff;
+        background: transparent;
+    }
+
+    #treeview-telerik-wo {
+        display:none!important;
+    }
+
+    /* Header padding */
+    .k-gantt-treelist .k-grid-header tr {
+        height: calc(2.8571428571em + 4px);
+        vertical-align: bottom;
+    }
+
+    .k-gantt .k-treelist .k-grid-header .k-header {
+        padding-left: calc(0.8571428571em + 6px);
+    }
+    /* Header padding */
+
+   .k-command-cell>.k-button, .k-edit-cell>.k-textbox, .k-edit-cell>.k-widget, .k-grid-edit-row td>.k-textbox, .k-grid-edit-row td>.k-widget {
+        vertical-align: middle;
+        background-color: #fff;
+    }
+
+    .k-scheduler-timelineWeekview > tbody > tr:nth-child(1) .k-scheduler-table tr:nth-child(2) {
+    display: none!important;
+    }
+
+    /* Extradescription in two rows */
+    .k-grid  td {
+        height: auto;
+        white-space: normal;
+    }
+    .no-scrollbar .k-grid-header
+    {
+    padding: 0 !important;
+    }
+
+    .no-scrollbar .k-grid-content
+    {
+        overflow-y: visible;
+    }
+
+
+    /* Hide the Horizonatal bar scroll */
+    .k-gantt .k-treelist .k-grid-content {
+       /* overflow-y: hidden;*/
+        overflow-x: hidden;
+    }
+
+    /* Hide the Vertical bar */
+    .k-gantt .k-splitbar {
+        display: none !important;
+    }
+    .k-gantt-treelist .k-i-expand,
+    .k-gantt-treelist .k-i-collapse {
+        cursor: pointer;
+    }
+    /* Horizontal Scroll*/
+    #gantt .k-grid-content {
+       /* overflow-y: hide!important;*/
+    }
+    .k-i-cancel:before {
+        content: "\e13a"; /* Adds a glyph using the Unicode character number */
+    }
+
+
+div.textwrapperNotes {
+
+  height: 240px;
+  overflow: auto;
+}
+
+/* Gantt */
+
+
+#gantt .k-grid-header
+{
+padding: 0 !important;
+}
+
+#gantt .k-grid-content
+{
+overflow-y: visible;
+}
+.k-gantt-header  {
+    display:none;
+}
+.k-gantt-footer {
+    display:none;
+}
+.k-gantt-timeline{
+    display:none;
+}
+
+.k-grid tbody button.k-button {
+    min-width: 20px;
+    border: 0px solid #fff;
+    background: transparent;
+}
+
+.k-grid .k-button {
+    padding-left: calc(0.61428571em + 6px);
+}
+
+#treeview-telerik-wo {
+    display:none!important;
+}
+
+/* Header padding */
+.k-gantt-treelist .k-grid-header tr {
+    height: calc(2.8571428571em + 4px);
+    vertical-align: bottom;
+}
+
+.k-gantt .k-treelist .k-grid-header .k-header {
+    padding-left: calc(0.8571428571em + 6px);
+}
+/* Header padding */
+
+.k-command-cell>.k-button, .k-edit-cell>.k-textbox, .k-edit-cell>.k-widget, .k-grid-edit-row td>.k-textbox, .k-grid-edit-row td>.k-widget {
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.k-scheduler-timelineWeekview > tbody > tr:nth-child(1) .k-scheduler-table tr:nth-child(2) {
+    display: none!important;
+}
+
+/* Extradescription in two rows */
+.k-grid  td {
+    height: auto;
+    white-space: normal;
+}
+.no-scrollbar .k-grid-header
+{
+padding: 0 !important;
+}
+
+/* #gantt > div.k-gantt-content > div.k-gantt-treelist > div > div.k-grid-header > div > table {
+    min-width: 1299.6px!important;
+}
+.k-grid-header-wrap {
+    max-width: 1299.6px!important;
+} */
+.k-grid-header {
+    background-color: grey;
+}
+
+.no-scrollbar .k-grid-content
+{
+    overflow-y: visible;
+}
+
+
+/* Hide the Horizonatal bar scroll */
+.k-gantt .k-treelist .k-grid-content {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* Hide the Vertical bar */
+.k-gantt .k-splitbar {
+    display: none;
+}
+.k-gantt-treelist .k-i-expand,
+.k-gantt-treelist .k-i-collapse {
+    cursor: pointer;
+}
+/* Horizontal Scroll*/
+
+
+
+.k-gantt .k-grid-content {
+    overflow-y: visible !important;
+
+
+}
+
+.k-gantt .k-gantt-layout {
+    height: 140% !important;
+
+}
+.k-auto-scrollable {
+    height:499px!important;
+
+}
+.k-grid-content table, .k-grid-content-locked table {
+    min-width: 701.513px!important;
+}
+
+.statusWoTaskColor {
+    background-color: #4ca807; padding: 1px 10px;
+}
+
+.statusWoTaskColor2 {
+    background-color: #c4370a; padding: 1px 10px;
+}
+.statusWoTaskColorNone {
+    display:none;
+}
+.tree-list-img {
+    width: 40px;
+    height: 40px;
+}
+
+.k-i-comment, .k-i-edit-tools {
+
+    cursor:pointer;
+}
+
+
+#gantt  > table {
+    max-width: 1298px!important;
+}
+
+/* Contract and Invoice Notes */
+.float-container {
+border: 0.1px solid #fff;
+padding-top:10px;
+
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    border: 1px solid #c6c6c6;
+}
+
+.k-i-arrow-right {
+    font-size:35px;
+}
+.statusTask2 {
+    transform: rotate(90deg);
+}
+
+.statusTask {
+    transform: rotate(0deg);
+}
+.formClass {
+    height: auto!important;
+    padding: 8px;
+}
+
+.formClassBill {
+    height:auto !important;
+    width:auto !important;
+}
+/* bigger checkbok */
+.zoomCheck {
+    zoom: 1.5;
+}

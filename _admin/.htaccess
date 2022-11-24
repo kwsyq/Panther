@@ -1,0 +1,5 @@
+#AuthType Basic
+#AuthName "Sign in to use SSS admin"
+#AuthUserFile /var/www/.htpasswords
+# Require user r.skinner@ssseng.com d.fleming@ssseng.com t.levine@ssseng.com alejandro@geks.mx jmabel@itwerx.net adminuser # OLD APPROACH
+#Require valid-user # New approach: if we give them a password, we intend them to have access.

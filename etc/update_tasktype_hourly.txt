@@ -1,0 +1,1 @@
+UPDATE taskType SET typeName = 'est hourly' WHERE taskTypeId = 4;
